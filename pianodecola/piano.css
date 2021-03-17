@@ -1,0 +1,192 @@
+body{/*se refiere a todo el contenido visual, esto incluye a la parte de atras del contenido de la pagina*/
+	background:url("../Imagenes/dust_scratches.png");
+	margin:auto;
+}
+#contenedor{/*es el contenedor del contenido visual, es un div*/
+	max-width:1170px;
+	margin:auto;
+	width:71.2%;
+}
+header{
+	background:rgb(68,68,68);
+	box-sizing:border-box;
+	height:100px;
+	padding-top:6px;
+	position:fixed;
+	text-align:center;
+	top:0px;
+	width:71.2%;
+	}
+	header #btn-menu{
+		display:none;
+	}
+	header label{
+		display:none;
+	}
+	.logo{
+		background:url(../Imagenes/Logo.png);
+		background-repeat:no-repeat;
+		display:inline-block;
+		height:47px;
+		
+		text-indent:-3000px;	
+		width:438px;
+		}
+	.socmed{
+	color:rgb(226,226,226);
+	font-size:25px;
+	margin-right:10px;
+	margin-top:7px;
+	float:right;
+	transition:0.4s;
+    }
+	.socmed:hover{
+		color:rgba(232, 105, 0, 0.99);
+		}		
+nav{
+	margin-top:-10px;	
+}
+nav #menuprincipal{
+	list-style-type:none;
+	padding:0;
+	position:fixed;
+	width:72.4%;
+}
+nav #menuprincipal li{
+	background:rgb(68,68,68);
+	float:left;
+	margin-right:1.2%; /*margin-right:0 o sin colocar nada; los li estan pegados. El li se fue tan a la izquierda que rebota y se va a la derecha sin que se corra el primer li*/ 	
+	position:relative;
+	width:15.4%;
+}
+nav #menuprincipal li a{
+	color:rgb(226,226,226);
+	display:block;
+	font-family:"Yu Gothic Ui light", "Homizio light", "Homizio Nova Light";
+	font-weight:bold;
+	height:28px;
+	padding-top:5px;
+	text-decoration:none;
+	transition:0.3s;
+}
+nav #menuprincipal li a:hover{
+	background:rgb(62,62,62);
+	color:rgba(232, 105, 0, 0.99);
+}
+nav #menuprincipal li ul{
+	box-sizing:border-box;
+    display:none;
+	list-style-type:none;
+	position:absolute;
+	width:101%;
+}
+nav #menuprincipal li ul li{
+	float:none;
+	margin-left:-40px;
+	width:auto;
+	}
+nav #menuprincipal li:hover ul{
+	display:block;
+}
+#wrapper{
+	background:rgb(68,68,68);
+ 	box-sizing:border-box;
+ 	float:left;
+ 	margin-bottom:8px;
+ 	margin-top:121px;
+ 	padding-bottom:30px;
+ 	padding-left:29px; 
+ 	padding-right:29px;
+  	width:79%;
+ 	}	
+article h2{
+		color:rgba(232, 105, 0, 0.99);
+		font-family:"Homizio light", "Homizio Nova Light","Homizio Nova";
+		font-weight:200;
+		letter-spacing:0.1px;
+		margin-top:17px;
+		margin-bottom:-10px;
+		}
+	article h3{
+		color:rgba(232, 105, 0, 0.99);
+		font-family:"Homizio light","Homizio Nova Light", "Homizio Nova";
+		font-size:22px;
+		letter-spacing:1.5px;
+		margin-bottom:-19px;
+	    }	
+	   
+	article p{
+		color:rgb(226,226,226);
+		font-family:"Homizio Nova", "Homizio Nova Light";
+		letter-spacing:0.4px;
+		}
+	#imagenprincipal{/*es un div y tiene un padding bottom por default de 4px*/
+		border:solid 0.9px;
+		color:rgb(226,226,226);
+		text-align:center;
+		width:100%;	
+	    }	
+	   #img{
+	   		margin-right:4%;
+	   		background:white;
+	   		width:40%;
+	   }
+	   #img2{
+	   		width:40%;
+	   }
+    	#tiposdepiano{
+		color:rgba(232, 105, 0, 0.99);
+		margin-left:-25px;
+		}
+		#tiposdepiano li{
+		 padding-left:5px; 
+		}
+		#tiposdepiano p{
+		margin-bottom:-5px;
+		}
+	#audio{
+		text-align:center;
+	}
+	#clasificaciones{
+		color:rgba(232, 105, 0, 0.99);
+		margin-left:-25px;
+	}
+	#parrafo{
+		position:static;
+		background:red;
+	}
+	#multimedia{
+		margin-bottom:45px;
+		text-align:center;
+	}
+	aside{
+	float:right;
+	width:20%;
+	padding-top:53px;
+	padding-right:3px;
+	}
+footer{
+		background:rgb(68,68,68);
+		box-sizing:border-box;
+		clear:both;
+		color:rgb(226,226,226);
+		font-family:"Yu gothic UI light", "Homizio light", "Homizio Nova Light";
+		font-size:17px;
+		height:70px;
+		padding-top:18px;/*este se aplica incluso al redsoc(porque es un valor en general)*/
+	    }
+		.redsoc{
+		color:rgb(226,226,226);
+		float:left;
+		font-size:25px;
+		margin-left:10px;
+		margin-top:5px;
+		transition:0.4s;
+		}
+		.redsoc:hover{
+			color:rgba(232, 105, 0, 0.99);
+		}
+	#copyright{
+		margin:7px auto;
+		width:500px;
+		}
